@@ -47,6 +47,7 @@ This repo holds the **HFSS electromagnetic simulation** validating the core conf
 | `snorlaxcurved.aedt` | Ansys HFSS model: a wraparound cylindrical conformal microstrip patch antenna, probe-fed, built around a curved dielectric substrate matching the helmet's surface geometry. |
 | `s11RESULT.png` | Return loss (S11) result — confirms impedance match. |
 | `radiationRESULT.png` | 3D far-field radiation pattern / gain result. |
+| `Tactticalhelmet1.stl` | 3D reference model of a tactical ballistic helmet, used to visualize antenna placement and inform the curvature parameters carried into the HFSS conformal model. |
 
 ### Simulation Results
 
@@ -70,6 +71,8 @@ The conformal patch shows a validated resonance at **3.94 GHz, S11 = −11.74 dB
 | Feed | Radial probe pin, 50Ω lumped port |
 | Solver | Ansys HFSS, Driven Modal |
 | Software | Ansys Electronics Desktop Student 2025 R2.4 |
+
+**3D Reference Model:** [`Tactticalhelmet1.stl`](Tactticalhelmet1.stl) — GitHub renders `.stl` files with an interactive 3D viewer directly in the repo, no download needed. This model represents the target ballistic helmet form factor the conformal array is designed to wrap around.
 
 ---
 
